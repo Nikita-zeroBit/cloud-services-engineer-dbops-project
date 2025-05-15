@@ -20,4 +20,4 @@ ALTER TABLE order_product
         REFERENCES orders (id),
     ADD CONSTRAINT fk_product_id
         FOREIGN KEY (product_id)
-        REFERENCES product (id),
+        REFERENCES product (id);
