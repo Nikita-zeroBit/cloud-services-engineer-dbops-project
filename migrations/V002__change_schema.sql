@@ -7,7 +7,7 @@ ALTER TABLE product
     ADD COLUMN price DOUBLE PRECISION;
 
 ALTER TABLE orders
-    ADD PRIMARY KEY (id)
+    ADD PRIMARY KEY (id),
     ADD COLUMN date_created DATE NOT NULL;
 
 ALTER TABLE order_product
